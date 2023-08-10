@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Series {
+struct Series: Hashable {
     let reps: Int
     let weight: Int
 }

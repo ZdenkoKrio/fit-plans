@@ -9,13 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainScene(trainings: [Training(id: 0, name: "Trainnig1", isActive: true, week: Training.mock),
+                              Training(id: 1, name: "Trainnig2", isActive: false, week: Training.mock)])
     }
 }
 

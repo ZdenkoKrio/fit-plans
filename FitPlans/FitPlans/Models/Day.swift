@@ -8,5 +8,9 @@
 import Foundation
 
 struct Day {
-    let exercises: [Excercise]
+    let id: Int
+    let name: String
+    let exercises: [Exercise]
 }
+
+

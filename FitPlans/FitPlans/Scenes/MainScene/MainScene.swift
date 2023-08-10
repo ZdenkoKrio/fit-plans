@@ -8,13 +8,46 @@
 import SwiftUI
 
 struct MainScene: View {
+    @State var trainings: [Training]
+    @State var newTraining: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Group {
+                if !trainings.isEmpty {
+                    List(trainings, id: \.id) { training in
+                        NavigationLink(destination: TrainingScene(training: training)) {
+                            MainRowView(name: training.name, isActive: training.isActive)
+                        } // LINK
+                    } // LIST
+                    .listStyle(.plain)
+                } else {
+                    ProgressView()
+                } // ELSE
+            } // GROUP
+            .navigationTitle("Trainings")
+            .navigationBarTitleDisplayMode(.automatic)
+            .toolbar {
+                ToolbarItem(placement: .automatic) {
+                    Button(action: { newTraining.toggle() }) {
+                        Label("", systemImage: "plus")
+                            .foregroundColor(.black)
+                            .fontWeight(.heavy)
+                    } // BUTTON
+                } // TOOLBAR ITEM
+            } // TOOLBAR
+        } // NAVIGATION
+        .sheet(isPresented: $newTraining) {
+            NewTreningScene()
+                .presentationDetents([.large])
+                .presentationDragIndicator(.visible)
+        }
     }
 }
 
 struct MainScene_Previews: PreviewProvider {
     static var previews: some View {
-        MainScene()
+        MainScene(trainings: [Training(id: 0, name: "Trainnig1", isActive: true, week: Training.mock),
+                              Training(id: 1, name: "Trainnig2", isActive: false, week: Training.mock)])
     }
 }

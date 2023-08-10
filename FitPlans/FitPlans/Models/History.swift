@@ -9,5 +9,5 @@ import Foundation
 
 struct History {
     let name: String
-    let history: [String: ExcerciseHistory]
+    let history: [String: ExerciseHistory]
 }

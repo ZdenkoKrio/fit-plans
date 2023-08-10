@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ExcerciseHistory {
+struct ExerciseHistory {
     let name: String
     let history: [Date: BestOfTheDay]
 }
