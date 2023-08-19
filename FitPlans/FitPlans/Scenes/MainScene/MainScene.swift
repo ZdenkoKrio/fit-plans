@@ -16,7 +16,7 @@ struct MainScene: View {
             Group {
                 if !trainings.isEmpty {
                     List(trainings, id: \.id) { training in
-                        NavigationLink(destination: TrainingScene(training: training)) {
+                        NavigationLink(destination: TrainingScene(state: TrainingSceneState(training: training))) {
                             MainRowView(name: training.name, isActive: training.isActive)
                         } // LINK
                     } // LIST
@@ -38,7 +38,7 @@ struct MainScene: View {
             } // TOOLBAR
         } // NAVIGATION
         .sheet(isPresented: $newTraining) {
-            NewTreningScene()
+            NewTrainingScene(state: NewTrainingSceneState())
                 .presentationDetents([.large])
                 .presentationDragIndicator(.visible)
         }

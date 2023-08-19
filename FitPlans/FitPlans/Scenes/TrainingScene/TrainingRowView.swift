@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct TrainingRowView: View {
-    let day: Day
+    let state: TrainingRowViewState
     
     var body: some View {
         HStack {
-            Text(day.name)
+            Text(state.name)
         } // HSTACK
     }
 }
 
 struct TrainingRowView_Previews: PreviewProvider {
     static var previews: some View {
-        TrainingRowView(day: Training.mock[0])
+        TrainingRowView(state: TrainingRowViewState(day: Training.mock[0]))
     }
 }

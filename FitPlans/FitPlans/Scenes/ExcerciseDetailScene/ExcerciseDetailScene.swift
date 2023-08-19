@@ -8,30 +8,29 @@
 import SwiftUI
 
 struct ExerciseDetailScene: View {
-    @State var exercise: Exercise
-    @State var actualSeries: Series = Series(reps: 0, weight: 0)
-    @State var writing: Bool = false
+    let state: ExerciseDetailSceneState
     
     var body: some View {
         VStack {
-            Text(exercise.name)
+            Text(state.name)
                 .font(.largeTitle)
-                .fontWeight(.bold)
-            HStack {
-                ForEach((0...exercise.series.count), id: \.self) { rep in
-                    Button("Series \(rep + 1)") {
-                        actualSeries = exercise.series[rep]
-                        writing.toggle()
-                    } // BUTTON
-                } // FOREACH
-            } // HSTACK
+                .fontWeight(.heavy)
+            ScrollView (.horizontal) {
+                HStack {
+                    ForEach((0...state.seriesCount), id: \.self) { rep in
+                        SeriesButtonView(state: SeriesButtonViewState(series: rep, actualSeries: state.$actualSeries, exercise: state.$exercise, writing: state.$writing, seriesNumber: state.$series))
+                    } // FOREACH
+                } // HSTACK
+                .padding()
+            } // SCROLL
+            
             GrafView()
                 .padding(50)
             
             Spacer()
         } // VSTACK
-        .sheet(isPresented: $writing) {
-            RepView(rep: actualSeries, number: 1)
+        .sheet(isPresented: state.$writing) {
+            RepView(state: RepViewState(rep: state.actualSeries, number: state.series))
                 .presentationDetents([.medium])
                 .presentationDragIndicator(.visible)
         } // SHEET
@@ -40,8 +39,8 @@ struct ExerciseDetailScene: View {
 
 struct ExerciseDetailScene_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseDetailScene(exercise: Exercise(id: 1, name: "Bench", series: [Series(reps: 0, weight: 0),
+        ExerciseDetailScene(state: ExerciseDetailSceneState(exercise: Exercise(id: 1, name: "Bench", series: [Series(reps: 0, weight: 0),
                                                                              Series(reps: 0, weight: 0),
-                                                                             Series(reps: 0, weight: 0)], best: BestOfTheDay(reps: 0, weight: 0)))
+                                                                             Series(reps: 0, weight: 0)], best: BestOfTheDay(reps: 0, weight: 0))))
     }
 }

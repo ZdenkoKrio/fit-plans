@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct TrainingScene: View {
-    var training: Training
+    let state: TrainingSceneState
     
     var body: some View {
         NavigationStack {
             Group {
-                if !training.week.isEmpty {
-                    List(training.week, id: \.id) { day in
-                        NavigationLink(destination: DayScene(day: day)) {
-                            TrainingRowView(day: day)
+                if !state.isEmptyWeek {
+                    List(state.week, id: \.id) { day in
+                        NavigationLink(destination: DayScene(state: DaySceneState(day: day))) {
+                            TrainingRowView(state: TrainingRowViewState(day: day))
                         } // LINK
                     } // LIST
                     .listStyle(.plain)
@@ -24,7 +24,7 @@ struct TrainingScene: View {
                     ProgressView()
                 } // ELSE
             } // GROUP
-            .navigationTitle(training.name)
+            .navigationTitle(state.name)
             .navigationBarTitleDisplayMode(.automatic)
         } // NAVIGATION
     }
@@ -32,6 +32,6 @@ struct TrainingScene: View {
 
 struct TrainingScene_Previews: PreviewProvider {
     static var previews: some View {
-        TrainingScene(training: Training(id: 0, name: "Trainig1", isActive: true, week: Training.mock))
+        TrainingScene(state: TrainingSceneState(training: Training(id: 0, name: "Trainig1", isActive: true, week: Training.mock)))
     }
 }

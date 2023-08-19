@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct DayScene: View {
-    var day: Day
+    let state: DaySceneState
     
     var body: some View {
         NavigationStack {
             Group {
-                if !day.exercises.isEmpty {
-                    List(day.exercises, id: \.id) { exercise in
-                        NavigationLink(destination: ExerciseDetailScene(exercise: exercise)) {
-                            ExerciseRowView(name: exercise.name, best: exercise.best)
+                if !state.isEmptyExcercise {
+                    List(state.exercises, id: \.id) { exercise in
+                        NavigationLink(destination: ExerciseDetailScene(state: ExerciseDetailSceneState(exercise: exercise))) {
+                            ExerciseRowView(state: ExerciseRowViewState(name: exercise.name, best: exercise.best))
                         } // LINK
                     } // LIST
                     .listStyle(.plain)
@@ -32,6 +32,6 @@ struct DayScene: View {
 
 struct DayScene_Previews: PreviewProvider {
     static var previews: some View {
-        DayScene(day: Training.mock[0])
+        DayScene(state: DaySceneState(day: Training.mock[0]))
     }
 }

@@ -8,21 +8,20 @@
 import SwiftUI
 
 struct RepRowView: View {
-    @Binding var value: Int
-    let name: String
+    let state: RepRowViewState
     
     var body: some View {
         HStack {
-            Text(name)
+            Text(state.name)
                 .font(.title)
                 .fontWeight(.bold)
                 .padding()
             Spacer()
-            MyBasicButtonView(name: "-", action: {value -= 1})
+            MyBasicButtonView(state: MyBasicButtonViewState(name: "-", action: {state.value -= 1}))
                 .padding()
-            Text("\(value)")
+            Text("\(state.value)")
                 .padding()
-            MyBasicButtonView(name: "+", action: {value += 1})
+            MyBasicButtonView(state: MyBasicButtonViewState(name: "+", action: {state.value += 1}))
                 .padding()
         }
     }
@@ -30,6 +29,6 @@ struct RepRowView: View {
 
 struct RepRowView_Previews: PreviewProvider {
     static var previews: some View {
-        RepRowView(value: .constant(0), name: "Weight")
+        RepRowView(state: RepRowViewState(value: .constant(0), name: "Weight"))
     }
 }

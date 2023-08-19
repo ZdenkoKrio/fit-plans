@@ -17,8 +17,7 @@
 		C838BBBE2A7810290042FFCE /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBBD2A7810280042FFCE /* MainScene.swift */; };
 		C838BBC22A78106E0042FFCE /* TrainingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBC12A78106E0042FFCE /* TrainingScene.swift */; };
 		C838BBC52A78108B0042FFCE /* DayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBC42A78108B0042FFCE /* DayScene.swift */; };
-		C838BBC82A7810E90042FFCE /* NewTreningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBC72A7810E90042FFCE /* NewTreningScene.swift */; };
-		C838BBCA2A7811220042FFCE /* NewDayExcercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBC92A7811220042FFCE /* NewDayExcercisesView.swift */; };
+		C838BBC82A7810E90042FFCE /* NewTrainingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBC72A7810E90042FFCE /* NewTrainingScene.swift */; };
 		C838BBCC2A78113B0042FFCE /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBCB2A78113B0042FFCE /* Day.swift */; };
 		C838BBCE2A7812D30042FFCE /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBCD2A7812D30042FFCE /* Exercise.swift */; };
 		C838BBD02A7813C00042FFCE /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBCF2A7813C00042FFCE /* Series.swift */; };
@@ -32,9 +31,27 @@
 		C838BBE42A7BC5520042FFCE /* TrainingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBE32A7BC5520042FFCE /* TrainingRowView.swift */; };
 		C838BBE62A855BF50042FFCE /* RepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBE52A855BF50042FFCE /* RepView.swift */; };
 		C838BBE82A855C0A0042FFCE /* GrafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBE72A855C0A0042FFCE /* GrafView.swift */; };
-		C8E197682A85627B00FA3137 /* RepButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197672A85627B00FA3137 /* RepButtonView.swift */; };
+		C8E197682A85627B00FA3137 /* SeriesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197672A85627B00FA3137 /* SeriesButtonView.swift */; };
 		C8E1976B2A8568CB00FA3137 /* MyBasicButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1976A2A8568CB00FA3137 /* MyBasicButtonView.swift */; };
 		C8E1976D2A856ACB00FA3137 /* RepRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1976C2A856ACB00FA3137 /* RepRowView.swift */; };
+		C8E1976F2A8D23E300FA3137 /* NewDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1976E2A8D23E300FA3137 /* NewDayView.swift */; };
+		C8E197712A8D297A00FA3137 /* NewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197702A8D297A00FA3137 /* NewExerciseView.swift */; };
+		C8E197742A9101CD00FA3137 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197732A9101CD00FA3137 /* Coordinator.swift */; };
+		C8E197772A91021600FA3137 /* ObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197762A91021600FA3137 /* ObservableObjects.swift */; };
+		C8E1977A2A91030D00FA3137 /* TtrainingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197792A91030D00FA3137 /* TtrainingsService.swift */; };
+		C8E1977C2A91031800FA3137 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1977B2A91031800FA3137 /* Services.swift */; };
+		C8E1977E2A91036A00FA3137 /* RepViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1977D2A91036A00FA3137 /* RepViewState.swift */; };
+		C8E197802A91064600FA3137 /* RepRowViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1977F2A91064600FA3137 /* RepRowViewState.swift */; };
+		C8E197822A91078800FA3137 /* MyBasicButtonViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197812A91078800FA3137 /* MyBasicButtonViewState.swift */; };
+		C8E197842A9109C000FA3137 /* ExerciseDetailSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197832A9109C000FA3137 /* ExerciseDetailSceneState.swift */; };
+		C8E197862A910D9700FA3137 /* SeriesButtonViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197852A910D9700FA3137 /* SeriesButtonViewState.swift */; };
+		C8E197882A9110F000FA3137 /* NewTrainingSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197872A9110F000FA3137 /* NewTrainingSceneState.swift */; };
+		C8E1978A2A91119F00FA3137 /* NewDayViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197892A91119F00FA3137 /* NewDayViewState.swift */; };
+		C8E1978C2A9112A400FA3137 /* NewExerciseViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1978B2A9112A400FA3137 /* NewExerciseViewState.swift */; };
+		C8E1978E2A9113BC00FA3137 /* DaySceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1978D2A9113BC00FA3137 /* DaySceneState.swift */; };
+		C8E197902A9114F100FA3137 /* ExerciseRowViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1978F2A9114F100FA3137 /* ExerciseRowViewState.swift */; };
+		C8E197922A911A5000FA3137 /* TrainingSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197912A911A5000FA3137 /* TrainingSceneState.swift */; };
+		C8E197942A911BBC00FA3137 /* TrainingRowViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197932A911BBC00FA3137 /* TrainingRowViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +85,7 @@
 		C838BBBD2A7810280042FFCE /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
 		C838BBC12A78106E0042FFCE /* TrainingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingScene.swift; sourceTree = "<group>"; };
 		C838BBC42A78108B0042FFCE /* DayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayScene.swift; sourceTree = "<group>"; };
-		C838BBC72A7810E90042FFCE /* NewTreningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTreningScene.swift; sourceTree = "<group>"; };
-		C838BBC92A7811220042FFCE /* NewDayExcercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDayExcercisesView.swift; sourceTree = "<group>"; };
+		C838BBC72A7810E90042FFCE /* NewTrainingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingScene.swift; sourceTree = "<group>"; };
 		C838BBCB2A78113B0042FFCE /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		C838BBCD2A7812D30042FFCE /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		C838BBCF2A7813C00042FFCE /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
@@ -83,9 +99,27 @@
 		C838BBE32A7BC5520042FFCE /* TrainingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRowView.swift; sourceTree = "<group>"; };
 		C838BBE52A855BF50042FFCE /* RepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepView.swift; sourceTree = "<group>"; };
 		C838BBE72A855C0A0042FFCE /* GrafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrafView.swift; sourceTree = "<group>"; };
-		C8E197672A85627B00FA3137 /* RepButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepButtonView.swift; sourceTree = "<group>"; };
+		C8E197672A85627B00FA3137 /* SeriesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesButtonView.swift; sourceTree = "<group>"; };
 		C8E1976A2A8568CB00FA3137 /* MyBasicButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicButtonView.swift; sourceTree = "<group>"; };
 		C8E1976C2A856ACB00FA3137 /* RepRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepRowView.swift; sourceTree = "<group>"; };
+		C8E1976E2A8D23E300FA3137 /* NewDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDayView.swift; sourceTree = "<group>"; };
+		C8E197702A8D297A00FA3137 /* NewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExerciseView.swift; sourceTree = "<group>"; };
+		C8E197732A9101CD00FA3137 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C8E197762A91021600FA3137 /* ObservableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjects.swift; sourceTree = "<group>"; };
+		C8E197792A91030D00FA3137 /* TtrainingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtrainingsService.swift; sourceTree = "<group>"; };
+		C8E1977B2A91031800FA3137 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		C8E1977D2A91036A00FA3137 /* RepViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepViewState.swift; sourceTree = "<group>"; };
+		C8E1977F2A91064600FA3137 /* RepRowViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepRowViewState.swift; sourceTree = "<group>"; };
+		C8E197812A91078800FA3137 /* MyBasicButtonViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicButtonViewState.swift; sourceTree = "<group>"; };
+		C8E197832A9109C000FA3137 /* ExerciseDetailSceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailSceneState.swift; sourceTree = "<group>"; };
+		C8E197852A910D9700FA3137 /* SeriesButtonViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesButtonViewState.swift; sourceTree = "<group>"; };
+		C8E197872A9110F000FA3137 /* NewTrainingSceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingSceneState.swift; sourceTree = "<group>"; };
+		C8E197892A91119F00FA3137 /* NewDayViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDayViewState.swift; sourceTree = "<group>"; };
+		C8E1978B2A9112A400FA3137 /* NewExerciseViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExerciseViewState.swift; sourceTree = "<group>"; };
+		C8E1978D2A9113BC00FA3137 /* DaySceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySceneState.swift; sourceTree = "<group>"; };
+		C8E1978F2A9114F100FA3137 /* ExerciseRowViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowViewState.swift; sourceTree = "<group>"; };
+		C8E197912A911A5000FA3137 /* TrainingSceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSceneState.swift; sourceTree = "<group>"; };
+		C8E197932A911BBC00FA3137 /* TrainingRowViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRowViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +170,8 @@
 		C838BB362A768D910042FFCE /* FitPlans */ = {
 			isa = PBXGroup;
 			children = (
+				C8E197782A91023400FA3137 /* Services */,
+				C8E197722A9101B200FA3137 /* Environment */,
 				C838BBBC2A780A970042FFCE /* Scenes */,
 				C838BBBB2A780A8E0042FFCE /* Models */,
 				C838BB372A768D910042FFCE /* FitPlansApp.swift */,
@@ -212,6 +248,8 @@
 			children = (
 				C838BBC12A78106E0042FFCE /* TrainingScene.swift */,
 				C838BBE32A7BC5520042FFCE /* TrainingRowView.swift */,
+				C8E197912A911A5000FA3137 /* TrainingSceneState.swift */,
+				C8E197932A911BBC00FA3137 /* TrainingRowViewState.swift */,
 			);
 			path = TrainingScene;
 			sourceTree = "<group>";
@@ -220,7 +258,9 @@
 			isa = PBXGroup;
 			children = (
 				C838BBC42A78108B0042FFCE /* DayScene.swift */,
+				C8E1978D2A9113BC00FA3137 /* DaySceneState.swift */,
 				C838BBDA2A7BAB990042FFCE /* ExerciseRowView.swift */,
+				C8E1978F2A9114F100FA3137 /* ExerciseRowViewState.swift */,
 			);
 			path = DayScene;
 			sourceTree = "<group>";
@@ -228,8 +268,12 @@
 		C838BBC62A7810C90042FFCE /* NewTreningScene */ = {
 			isa = PBXGroup;
 			children = (
-				C838BBC72A7810E90042FFCE /* NewTreningScene.swift */,
-				C838BBC92A7811220042FFCE /* NewDayExcercisesView.swift */,
+				C838BBC72A7810E90042FFCE /* NewTrainingScene.swift */,
+				C8E1976E2A8D23E300FA3137 /* NewDayView.swift */,
+				C8E197702A8D297A00FA3137 /* NewExerciseView.swift */,
+				C8E1978B2A9112A400FA3137 /* NewExerciseViewState.swift */,
+				C8E197872A9110F000FA3137 /* NewTrainingSceneState.swift */,
+				C8E197892A91119F00FA3137 /* NewDayViewState.swift */,
 			);
 			path = NewTreningScene;
 			sourceTree = "<group>";
@@ -239,7 +283,9 @@
 			children = (
 				C838BBDD2A7BADE40042FFCE /* ExcerciseDetailScene.swift */,
 				C838BBE72A855C0A0042FFCE /* GrafView.swift */,
-				C8E197672A85627B00FA3137 /* RepButtonView.swift */,
+				C8E197672A85627B00FA3137 /* SeriesButtonView.swift */,
+				C8E197832A9109C000FA3137 /* ExerciseDetailSceneState.swift */,
+				C8E197852A910D9700FA3137 /* SeriesButtonViewState.swift */,
 			);
 			path = ExcerciseDetailScene;
 			sourceTree = "<group>";
@@ -250,8 +296,38 @@
 				C838BBE52A855BF50042FFCE /* RepView.swift */,
 				C8E1976A2A8568CB00FA3137 /* MyBasicButtonView.swift */,
 				C8E1976C2A856ACB00FA3137 /* RepRowView.swift */,
+				C8E1977D2A91036A00FA3137 /* RepViewState.swift */,
+				C8E1977F2A91064600FA3137 /* RepRowViewState.swift */,
+				C8E197812A91078800FA3137 /* MyBasicButtonViewState.swift */,
 			);
 			path = RepView;
+			sourceTree = "<group>";
+		};
+		C8E197722A9101B200FA3137 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				C8E197752A9101E200FA3137 /* ObservableObjects */,
+				C8E197732A9101CD00FA3137 /* Coordinator.swift */,
+				C8E197762A91021600FA3137 /* ObservableObjects.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		C8E197752A9101E200FA3137 /* ObservableObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObservableObjects;
+			sourceTree = "<group>";
+		};
+		C8E197782A91023400FA3137 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C8E197792A91030D00FA3137 /* TtrainingsService.swift */,
+				C8E1977B2A91031800FA3137 /* Services.swift */,
+			);
+			name = Services;
+			path = "ňServices";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,29 +460,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E197822A91078800FA3137 /* MyBasicButtonViewState.swift in Sources */,
+				C8E1977E2A91036A00FA3137 /* RepViewState.swift in Sources */,
+				C8E197922A911A5000FA3137 /* TrainingSceneState.swift in Sources */,
+				C8E197862A910D9700FA3137 /* SeriesButtonViewState.swift in Sources */,
 				C838BBBE2A7810290042FFCE /* MainScene.swift in Sources */,
+				C8E197942A911BBC00FA3137 /* TrainingRowViewState.swift in Sources */,
 				C838BBD42A78172B0042FFCE /* BestOfTheDay.swift in Sources */,
 				C838BBCE2A7812D30042FFCE /* Exercise.swift in Sources */,
 				C838BBE62A855BF50042FFCE /* RepView.swift in Sources */,
 				C838BBE82A855C0A0042FFCE /* GrafView.swift in Sources */,
-				C838BBC82A7810E90042FFCE /* NewTreningScene.swift in Sources */,
+				C8E1978A2A91119F00FA3137 /* NewDayViewState.swift in Sources */,
+				C838BBC82A7810E90042FFCE /* NewTrainingScene.swift in Sources */,
 				C838BBCC2A78113B0042FFCE /* Day.swift in Sources */,
+				C8E1977A2A91030D00FA3137 /* TtrainingsService.swift in Sources */,
+				C8E197712A8D297A00FA3137 /* NewExerciseView.swift in Sources */,
 				C8E1976D2A856ACB00FA3137 /* RepRowView.swift in Sources */,
+				C8E1978E2A9113BC00FA3137 /* DaySceneState.swift in Sources */,
 				C8E1976B2A8568CB00FA3137 /* MyBasicButtonView.swift in Sources */,
+				C8E197842A9109C000FA3137 /* ExerciseDetailSceneState.swift in Sources */,
 				C838BBD02A7813C00042FFCE /* Series.swift in Sources */,
-				C8E197682A85627B00FA3137 /* RepButtonView.swift in Sources */,
+				C8E197772A91021600FA3137 /* ObservableObjects.swift in Sources */,
+				C8E197882A9110F000FA3137 /* NewTrainingSceneState.swift in Sources */,
+				C8E197682A85627B00FA3137 /* SeriesButtonView.swift in Sources */,
 				C838BB3A2A768D910042FFCE /* ContentView.swift in Sources */,
 				C838BBDB2A7BAB990042FFCE /* ExerciseRowView.swift in Sources */,
 				C838BBC22A78106E0042FFCE /* TrainingScene.swift in Sources */,
+				C8E1977C2A91031800FA3137 /* Services.swift in Sources */,
+				C8E197802A91064600FA3137 /* RepRowViewState.swift in Sources */,
 				C838BBDE2A7BADE40042FFCE /* ExcerciseDetailScene.swift in Sources */,
 				C838BBE22A7BBC8F0042FFCE /* MainRowView.swift in Sources */,
+				C8E1978C2A9112A400FA3137 /* NewExerciseViewState.swift in Sources */,
 				C838BBD22A7814C10042FFCE /* ExerciseHistory.swift in Sources */,
 				C838BBE02A7BAFB20042FFCE /* Training.swift in Sources */,
 				C838BB382A768D910042FFCE /* FitPlansApp.swift in Sources */,
 				C838BBD62A7817C10042FFCE /* History.swift in Sources */,
 				C838BBE42A7BC5520042FFCE /* TrainingRowView.swift in Sources */,
+				C8E197742A9101CD00FA3137 /* Coordinator.swift in Sources */,
+				C8E197902A9114F100FA3137 /* ExerciseRowViewState.swift in Sources */,
 				C838BBC52A78108B0042FFCE /* DayScene.swift in Sources */,
-				C838BBCA2A7811220042FFCE /* NewDayExcercisesView.swift in Sources */,
+				C8E1976F2A8D23E300FA3137 /* NewDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

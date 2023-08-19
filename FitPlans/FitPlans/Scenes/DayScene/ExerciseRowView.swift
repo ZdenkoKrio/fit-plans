@@ -8,20 +8,19 @@
 import SwiftUI
 
 struct ExerciseRowView: View {
-    let name: String
-    @State var best: BestOfTheDay
+    let state: ExerciseRowViewState
     
     var body: some View {
         HStack {
-            Text(name)
+            Text(state.name)
                 .font(.title)
                 .fontWeight(.heavy)
             Spacer()
-            Text("\(best.weight)kg")
+            Text("\(state.weight)kg")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding()
-            Text("\(best.reps) reps")
+            Text("\(state.reps) reps")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding()
@@ -32,6 +31,6 @@ struct ExerciseRowView: View {
 
 struct ExerciseRowView_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseRowView(name: "Bench", best: BestOfTheDay(reps: 10, weight: 100))
+        ExerciseRowView(state: ExerciseRowViewState(name: "Bench", best: BestOfTheDay(reps: 10, weight: 100)))
     }
 }

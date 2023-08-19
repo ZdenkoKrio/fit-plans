@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct MyBasicButtonView: View {
-    let name: String
-    let action: () -> Void
+    let state: MyBasicButtonViewState
     
     var body: some View {
-        Button(name, action: action)
+        Button(state.name, action: state.action)
             .frame(width: 50, height: 50)
             .background(.gray)
             .cornerRadius(15)
@@ -23,6 +22,6 @@ struct MyBasicButtonView: View {
 
 struct MyBasicButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        MyBasicButtonView(name: "+", action: {})
+        MyBasicButtonView(state: MyBasicButtonViewState(name: "+", action: {}))
     }
 }

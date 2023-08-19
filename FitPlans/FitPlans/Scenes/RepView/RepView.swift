@@ -8,25 +8,22 @@
 import SwiftUI
 
 struct RepView: View {
-    var rep: Series
-    let number: Int
-    @State var weight: Int = 0
-    @State var reps: Int = 0
+    let state: RepViewState
     
     var body: some View {
         VStack {
-            Text("Series \(number)")
+            Text("Series \(state.number)")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding()
-            RepRowView(value: $weight, name: "Weight")
-            RepRowView(value: $reps, name: "Reps")
+            RepRowView(state: RepRowViewState(value: state.$weight, name: "Weight"))
+            RepRowView(state: RepRowViewState(value: state.$reps, name: "Reps"))
         }
     }
 }
 
 struct RepView_Previews: PreviewProvider {
     static var previews: some View {
-        RepView(rep: Series(reps: 0, weight: 0), number: 1)
+        RepView(state: RepViewState(rep: Series(reps: 0, weight: 0), number: 1))
     }
 }
