@@ -15,6 +15,6 @@ struct SeriesButtonViewState: DynamicProperty {
     @Binding var seriesNumber: Int
     
     var mySeries: Series {
-        exercise.series[series]
+        exercise.series?[series] ?? Series(reps: 0, weight: 0)
     }
 }

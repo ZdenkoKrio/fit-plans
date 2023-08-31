@@ -10,6 +10,9 @@ import Foundation
 struct Exercise {
     let id: Int
     let name: String
-    let series: [Series]
+    let isRun: Bool
+    let distanceKm: Double?
+    let time: TimeInterval?
+    let series: [Series]?
     let best: BestOfTheDay
 }

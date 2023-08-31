@@ -19,6 +19,7 @@ struct RepView: View {
             RepRowView(state: RepRowViewState(value: state.$weight, name: "Weight"))
             RepRowView(state: RepRowViewState(value: state.$reps, name: "Reps"))
         }
+        .padding()
     }
 }
 

@@ -14,7 +14,7 @@ struct ExerciseDetailSceneState: DynamicProperty {
     @State var series: Int = 0
     
     var seriesCount: Int {
-        exercise.series.count - 1
+        (exercise.series?.count ?? 1) - 1
     }
     
     var name: String {

@@ -12,7 +12,7 @@ struct MyBasicButtonView: View {
     
     var body: some View {
         Button(state.name, action: state.action)
-            .frame(width: 50, height: 50)
+            .frame(width: 40, height: 40)
             .background(.gray)
             .cornerRadius(15)
             .foregroundColor(.black)

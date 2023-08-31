@@ -13,7 +13,7 @@ struct ExerciseRowView: View {
     var body: some View {
         HStack {
             Text(state.name)
-                .font(.title)
+                .font(.title2)
                 .fontWeight(.heavy)
             Spacer()
             Text("\(state.weight)kg")

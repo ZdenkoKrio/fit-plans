@@ -31,6 +31,47 @@
 		C838BBE42A7BC5520042FFCE /* TrainingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBE32A7BC5520042FFCE /* TrainingRowView.swift */; };
 		C838BBE62A855BF50042FFCE /* RepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBE52A855BF50042FFCE /* RepView.swift */; };
 		C838BBE82A855C0A0042FFCE /* GrafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBE72A855C0A0042FFCE /* GrafView.swift */; };
+		C888E3302A9DF48F002D0E56 /* FitPlansWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E32F2A9DF48F002D0E56 /* FitPlansWatchApp.swift */; };
+		C888E3322A9DF48F002D0E56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3312A9DF48F002D0E56 /* ContentView.swift */; };
+		C888E3342A9DF490002D0E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888E3332A9DF490002D0E56 /* Assets.xcassets */; };
+		C888E3372A9DF490002D0E56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888E3362A9DF490002D0E56 /* Preview Assets.xcassets */; };
+		C888E3412A9DF490002D0E56 /* FitPlansWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3402A9DF490002D0E56 /* FitPlansWatch_Watch_AppTests.swift */; };
+		C888E34B2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E34A2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITests.swift */; };
+		C888E34D2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E34C2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITestsLaunchTests.swift */; };
+		C888E3592A9F92E3002D0E56 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C888E3582A9F92E3002D0E56 /* CoreData.framework */; };
+		C888E35C2A9F933B002D0E56 /* FitPlans.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C888E35A2A9F933B002D0E56 /* FitPlans.xcdatamodeld */; };
+		C888E3992A9F9D7E002D0E56 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3982A9F9D7E002D0E56 /* Persistance.swift */; };
+		C888E39B2A9FA3E4002D0E56 /* TrainingWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E39A2A9FA3E4002D0E56 /* TrainingWeek.swift */; };
+		C888E39C2AA07E8B002D0E56 /* BestOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBD32A78172B0042FFCE /* BestOfTheDay.swift */; };
+		C888E39D2AA07E8B002D0E56 /* ExerciseHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBD12A7814C10042FFCE /* ExerciseHistory.swift */; };
+		C888E39E2AA07E8B002D0E56 /* TrainingWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E39A2A9FA3E4002D0E56 /* TrainingWeek.swift */; };
+		C888E39F2AA07E8B002D0E56 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBD52A7817C10042FFCE /* History.swift */; };
+		C888E3A12AA07E8B002D0E56 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBDF2A7BAFB10042FFCE /* Training.swift */; };
+		C888E3A22AA07E8B002D0E56 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBCD2A7812D30042FFCE /* Exercise.swift */; };
+		C888E3A32AA07E8B002D0E56 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197732A9101CD00FA3137 /* Coordinator.swift */; };
+		C888E3A42AA07E8B002D0E56 /* ObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197762A91021600FA3137 /* ObservableObjects.swift */; };
+		C888E3A52AA07E8B002D0E56 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBCF2A7813C00042FFCE /* Series.swift */; };
+		C888E3AA2AA07FBE002D0E56 /* MyBasicButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1976A2A8568CB00FA3137 /* MyBasicButtonView.swift */; };
+		C888E3AB2AA07FBE002D0E56 /* RepRowViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1977F2A91064600FA3137 /* RepRowViewState.swift */; };
+		C888E3AC2AA07FBE002D0E56 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBCB2A78113B0042FFCE /* Day.swift */; };
+		C888E3AD2AA07FBE002D0E56 /* RepRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1976C2A856ACB00FA3137 /* RepRowView.swift */; };
+		C888E3AE2AA07FBE002D0E56 /* MyBasicButtonViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197812A91078800FA3137 /* MyBasicButtonViewState.swift */; };
+		C888E3B12AA08037002D0E56 /* DayProgramScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3B02AA08037002D0E56 /* DayProgramScene.swift */; };
+		C888E3B32AA08067002D0E56 /* DayProgramSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3B22AA08067002D0E56 /* DayProgramSceneState.swift */; };
+		C888E3B52AA08606002D0E56 /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3B42AA08606002D0E56 /* TrainingView.swift */; };
+		C888E3B72AA08681002D0E56 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3B62AA08681002D0E56 /* StartScene.swift */; };
+		C888E3B92AA086D0002D0E56 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3B82AA086D0002D0E56 /* ExerciseView.swift */; };
+		C888E3BB2AA0886B002D0E56 /* TrainingViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3BA2AA0886B002D0E56 /* TrainingViewState.swift */; };
+		C888E3BD2AA088D9002D0E56 /* TrainingPlanExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3BC2AA088D9002D0E56 /* TrainingPlanExercise.swift */; };
+		C888E3BE2AA088E3002D0E56 /* TrainingPlanExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3BC2AA088D9002D0E56 /* TrainingPlanExercise.swift */; };
+		C888E3C02AA08CAE002D0E56 /* ExcerciseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3BF2AA08CAE002D0E56 /* ExcerciseRowView.swift */; };
+		C888E3C22AA08CE3002D0E56 /* ExerciseDescriptionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3C12AA08CE3002D0E56 /* ExerciseDescriptionScene.swift */; };
+		C888E3C42AA08DF6002D0E56 /* ExerciseRowViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3C32AA08DF6002D0E56 /* ExerciseRowViewState.swift */; };
+		C888E3C62AA09F26002D0E56 /* StartSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3C52AA09F26002D0E56 /* StartSceneState.swift */; };
+		C888E3C82AA0A097002D0E56 /* ExerciseViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3C72AA0A097002D0E56 /* ExerciseViewState.swift */; };
+		C888E3CA2AA0A670002D0E56 /* EnterDataScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E3C92AA0A670002D0E56 /* EnterDataScene.swift */; };
+		C888E3CB2AA0AD3F002D0E56 /* RepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BBE52A855BF50042FFCE /* RepView.swift */; };
+		C888E3CC2AA0AD4A002D0E56 /* RepViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1977D2A91036A00FA3137 /* RepViewState.swift */; };
 		C8E197682A85627B00FA3137 /* SeriesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E197672A85627B00FA3137 /* SeriesButtonView.swift */; };
 		C8E1976B2A8568CB00FA3137 /* MyBasicButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1976A2A8568CB00FA3137 /* MyBasicButtonView.swift */; };
 		C8E1976D2A856ACB00FA3137 /* RepRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1976C2A856ACB00FA3137 /* RepRowView.swift */; };
@@ -69,6 +110,20 @@
 			remoteGlobalIDString = C838BB332A768D910042FFCE;
 			remoteInfo = FitPlans;
 		};
+		C888E33D2A9DF490002D0E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C838BB2C2A768D910042FFCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C888E32C2A9DF48F002D0E56;
+			remoteInfo = "FitPlansWatch Watch App";
+		};
+		C888E3472A9DF491002D0E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C838BB2C2A768D910042FFCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C888E32C2A9DF48F002D0E56;
+			remoteInfo = "FitPlansWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +154,33 @@
 		C838BBE32A7BC5520042FFCE /* TrainingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRowView.swift; sourceTree = "<group>"; };
 		C838BBE52A855BF50042FFCE /* RepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepView.swift; sourceTree = "<group>"; };
 		C838BBE72A855C0A0042FFCE /* GrafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrafView.swift; sourceTree = "<group>"; };
+		C888E32D2A9DF48F002D0E56 /* FitPlansWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitPlansWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888E32F2A9DF48F002D0E56 /* FitPlansWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPlansWatchApp.swift; sourceTree = "<group>"; };
+		C888E3312A9DF48F002D0E56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C888E3332A9DF490002D0E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C888E3362A9DF490002D0E56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C888E33C2A9DF490002D0E56 /* FitPlansWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitPlansWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888E3402A9DF490002D0E56 /* FitPlansWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPlansWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		C888E3462A9DF490002D0E56 /* FitPlansWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitPlansWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888E34A2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPlansWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		C888E34C2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPlansWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C888E3582A9F92E3002D0E56 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C888E35B2A9F933B002D0E56 /* FitPlansModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitPlansModel.xcdatamodel; sourceTree = "<group>"; };
+		C888E3982A9F9D7E002D0E56 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		C888E39A2A9FA3E4002D0E56 /* TrainingWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingWeek.swift; sourceTree = "<group>"; };
+		C888E3B02AA08037002D0E56 /* DayProgramScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayProgramScene.swift; sourceTree = "<group>"; };
+		C888E3B22AA08067002D0E56 /* DayProgramSceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayProgramSceneState.swift; sourceTree = "<group>"; };
+		C888E3B42AA08606002D0E56 /* TrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		C888E3B62AA08681002D0E56 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		C888E3B82AA086D0002D0E56 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		C888E3BA2AA0886B002D0E56 /* TrainingViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewState.swift; sourceTree = "<group>"; };
+		C888E3BC2AA088D9002D0E56 /* TrainingPlanExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanExercise.swift; sourceTree = "<group>"; };
+		C888E3BF2AA08CAE002D0E56 /* ExcerciseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseRowView.swift; sourceTree = "<group>"; };
+		C888E3C12AA08CE3002D0E56 /* ExerciseDescriptionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDescriptionScene.swift; sourceTree = "<group>"; };
+		C888E3C32AA08DF6002D0E56 /* ExerciseRowViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowViewState.swift; sourceTree = "<group>"; };
+		C888E3C52AA09F26002D0E56 /* StartSceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSceneState.swift; sourceTree = "<group>"; };
+		C888E3C72AA0A097002D0E56 /* ExerciseViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewState.swift; sourceTree = "<group>"; };
+		C888E3C92AA0A670002D0E56 /* EnterDataScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDataScene.swift; sourceTree = "<group>"; };
 		C8E197672A85627B00FA3137 /* SeriesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesButtonView.swift; sourceTree = "<group>"; };
 		C8E1976A2A8568CB00FA3137 /* MyBasicButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicButtonView.swift; sourceTree = "<group>"; };
 		C8E1976C2A856ACB00FA3137 /* RepRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepRowView.swift; sourceTree = "<group>"; };
@@ -127,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C888E3592A9F92E3002D0E56 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +227,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C888E32A2A9DF48F002D0E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888E3392A9DF490002D0E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888E3432A9DF490002D0E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -153,7 +257,11 @@
 				C838BB362A768D910042FFCE /* FitPlans */,
 				C838BB472A768D920042FFCE /* FitPlansTests */,
 				C838BB512A768D920042FFCE /* FitPlansUITests */,
+				C888E32E2A9DF48F002D0E56 /* FitPlansWatch Watch App */,
+				C888E33F2A9DF490002D0E56 /* FitPlansWatch Watch AppTests */,
+				C888E3492A9DF491002D0E56 /* FitPlansWatch Watch AppUITests */,
 				C838BB352A768D910042FFCE /* Products */,
+				C888E3572A9F92E3002D0E56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +271,9 @@
 				C838BB342A768D910042FFCE /* FitPlans.app */,
 				C838BB442A768D920042FFCE /* FitPlansTests.xctest */,
 				C838BB4E2A768D920042FFCE /* FitPlansUITests.xctest */,
+				C888E32D2A9DF48F002D0E56 /* FitPlansWatch Watch App.app */,
+				C888E33C2A9DF490002D0E56 /* FitPlansWatch Watch AppTests.xctest */,
+				C888E3462A9DF490002D0E56 /* FitPlansWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +281,7 @@
 		C838BB362A768D910042FFCE /* FitPlans */ = {
 			isa = PBXGroup;
 			children = (
+				C888E35A2A9F933B002D0E56 /* FitPlans.xcdatamodeld */,
 				C8E197782A91023400FA3137 /* Services */,
 				C8E197722A9101B200FA3137 /* Environment */,
 				C838BBBC2A780A970042FFCE /* Scenes */,
@@ -178,6 +290,7 @@
 				C838BB392A768D910042FFCE /* ContentView.swift */,
 				C838BB3B2A768D920042FFCE /* Assets.xcassets */,
 				C838BB3D2A768D920042FFCE /* Preview Content */,
+				C888E3982A9F9D7E002D0E56 /* Persistance.swift */,
 			);
 			path = FitPlans;
 			sourceTree = "<group>";
@@ -217,6 +330,8 @@
 				C838BBD32A78172B0042FFCE /* BestOfTheDay.swift */,
 				C838BBD52A7817C10042FFCE /* History.swift */,
 				C838BBDF2A7BAFB10042FFCE /* Training.swift */,
+				C888E39A2A9FA3E4002D0E56 /* TrainingWeek.swift */,
+				C888E3BC2AA088D9002D0E56 /* TrainingPlanExercise.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -247,8 +362,8 @@
 			isa = PBXGroup;
 			children = (
 				C838BBC12A78106E0042FFCE /* TrainingScene.swift */,
-				C838BBE32A7BC5520042FFCE /* TrainingRowView.swift */,
 				C8E197912A911A5000FA3137 /* TrainingSceneState.swift */,
+				C838BBE32A7BC5520042FFCE /* TrainingRowView.swift */,
 				C8E197932A911BBC00FA3137 /* TrainingRowViewState.swift */,
 			);
 			path = TrainingScene;
@@ -290,13 +405,77 @@
 			path = ExcerciseDetailScene;
 			sourceTree = "<group>";
 		};
+		C888E32E2A9DF48F002D0E56 /* FitPlansWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C888E3AF2AA0801F002D0E56 /* Scenes */,
+				C888E32F2A9DF48F002D0E56 /* FitPlansWatchApp.swift */,
+				C888E3312A9DF48F002D0E56 /* ContentView.swift */,
+				C888E3332A9DF490002D0E56 /* Assets.xcassets */,
+				C888E3352A9DF490002D0E56 /* Preview Content */,
+			);
+			path = "FitPlansWatch Watch App";
+			sourceTree = "<group>";
+		};
+		C888E3352A9DF490002D0E56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C888E3362A9DF490002D0E56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C888E33F2A9DF490002D0E56 /* FitPlansWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C888E3402A9DF490002D0E56 /* FitPlansWatch_Watch_AppTests.swift */,
+			);
+			path = "FitPlansWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		C888E3492A9DF491002D0E56 /* FitPlansWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C888E34A2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITests.swift */,
+				C888E34C2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "FitPlansWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		C888E3572A9F92E3002D0E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C888E3582A9F92E3002D0E56 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C888E3AF2AA0801F002D0E56 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C888E3B02AA08037002D0E56 /* DayProgramScene.swift */,
+				C888E3B22AA08067002D0E56 /* DayProgramSceneState.swift */,
+				C888E3B42AA08606002D0E56 /* TrainingView.swift */,
+				C888E3BA2AA0886B002D0E56 /* TrainingViewState.swift */,
+				C888E3B62AA08681002D0E56 /* StartScene.swift */,
+				C888E3C52AA09F26002D0E56 /* StartSceneState.swift */,
+				C888E3B82AA086D0002D0E56 /* ExerciseView.swift */,
+				C888E3C72AA0A097002D0E56 /* ExerciseViewState.swift */,
+				C888E3BF2AA08CAE002D0E56 /* ExcerciseRowView.swift */,
+				C888E3C32AA08DF6002D0E56 /* ExerciseRowViewState.swift */,
+				C888E3C12AA08CE3002D0E56 /* ExerciseDescriptionScene.swift */,
+				C888E3C92AA0A670002D0E56 /* EnterDataScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		C8E197692A85688C00FA3137 /* RepView */ = {
 			isa = PBXGroup;
 			children = (
 				C838BBE52A855BF50042FFCE /* RepView.swift */,
+				C8E1977D2A91036A00FA3137 /* RepViewState.swift */,
 				C8E1976A2A8568CB00FA3137 /* MyBasicButtonView.swift */,
 				C8E1976C2A856ACB00FA3137 /* RepRowView.swift */,
-				C8E1977D2A91036A00FA3137 /* RepViewState.swift */,
 				C8E1977F2A91064600FA3137 /* RepRowViewState.swift */,
 				C8E197812A91078800FA3137 /* MyBasicButtonViewState.swift */,
 			);
@@ -386,6 +565,59 @@
 			productReference = C838BB4E2A768D920042FFCE /* FitPlansUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C888E32C2A9DF48F002D0E56 /* FitPlansWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888E3542A9DF491002D0E56 /* Build configuration list for PBXNativeTarget "FitPlansWatch Watch App" */;
+			buildPhases = (
+				C888E3292A9DF48F002D0E56 /* Sources */,
+				C888E32A2A9DF48F002D0E56 /* Frameworks */,
+				C888E32B2A9DF48F002D0E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitPlansWatch Watch App";
+			productName = "FitPlansWatch Watch App";
+			productReference = C888E32D2A9DF48F002D0E56 /* FitPlansWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C888E33B2A9DF490002D0E56 /* FitPlansWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888E3552A9DF491002D0E56 /* Build configuration list for PBXNativeTarget "FitPlansWatch Watch AppTests" */;
+			buildPhases = (
+				C888E3382A9DF490002D0E56 /* Sources */,
+				C888E3392A9DF490002D0E56 /* Frameworks */,
+				C888E33A2A9DF490002D0E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C888E33E2A9DF490002D0E56 /* PBXTargetDependency */,
+			);
+			name = "FitPlansWatch Watch AppTests";
+			productName = "FitPlansWatch Watch AppTests";
+			productReference = C888E33C2A9DF490002D0E56 /* FitPlansWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C888E3452A9DF490002D0E56 /* FitPlansWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888E3562A9DF491002D0E56 /* Build configuration list for PBXNativeTarget "FitPlansWatch Watch AppUITests" */;
+			buildPhases = (
+				C888E3422A9DF490002D0E56 /* Sources */,
+				C888E3432A9DF490002D0E56 /* Frameworks */,
+				C888E3442A9DF490002D0E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C888E3482A9DF491002D0E56 /* PBXTargetDependency */,
+			);
+			name = "FitPlansWatch Watch AppUITests";
+			productName = "FitPlansWatch Watch AppUITests";
+			productReference = C888E3462A9DF490002D0E56 /* FitPlansWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -407,6 +639,17 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = C838BB332A768D910042FFCE;
 					};
+					C888E32C2A9DF48F002D0E56 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C888E33B2A9DF490002D0E56 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C888E32C2A9DF48F002D0E56;
+					};
+					C888E3452A9DF490002D0E56 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C888E32C2A9DF48F002D0E56;
+					};
 				};
 			};
 			buildConfigurationList = C838BB2F2A768D910042FFCE /* Build configuration list for PBXProject "FitPlans" */;
@@ -425,6 +668,9 @@
 				C838BB332A768D910042FFCE /* FitPlans */,
 				C838BB432A768D920042FFCE /* FitPlansTests */,
 				C838BB4D2A768D920042FFCE /* FitPlansUITests */,
+				C888E32C2A9DF48F002D0E56 /* FitPlansWatch Watch App */,
+				C888E33B2A9DF490002D0E56 /* FitPlansWatch Watch AppTests */,
+				C888E3452A9DF490002D0E56 /* FitPlansWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -447,6 +693,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C838BB4C2A768D920042FFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888E32B2A9DF48F002D0E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888E3372A9DF490002D0E56 /* Preview Assets.xcassets in Resources */,
+				C888E3342A9DF490002D0E56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888E33A2A9DF490002D0E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888E3442A9DF490002D0E56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,6 +745,7 @@
 				C8E1977A2A91030D00FA3137 /* TtrainingsService.swift in Sources */,
 				C8E197712A8D297A00FA3137 /* NewExerciseView.swift in Sources */,
 				C8E1976D2A856ACB00FA3137 /* RepRowView.swift in Sources */,
+				C888E35C2A9F933B002D0E56 /* FitPlans.xcdatamodeld in Sources */,
 				C8E1978E2A9113BC00FA3137 /* DaySceneState.swift in Sources */,
 				C8E1976B2A8568CB00FA3137 /* MyBasicButtonView.swift in Sources */,
 				C8E197842A9109C000FA3137 /* ExerciseDetailSceneState.swift in Sources */,
@@ -491,9 +761,12 @@
 				C838BBDE2A7BADE40042FFCE /* ExcerciseDetailScene.swift in Sources */,
 				C838BBE22A7BBC8F0042FFCE /* MainRowView.swift in Sources */,
 				C8E1978C2A9112A400FA3137 /* NewExerciseViewState.swift in Sources */,
+				C888E3BD2AA088D9002D0E56 /* TrainingPlanExercise.swift in Sources */,
 				C838BBD22A7814C10042FFCE /* ExerciseHistory.swift in Sources */,
+				C888E39B2A9FA3E4002D0E56 /* TrainingWeek.swift in Sources */,
 				C838BBE02A7BAFB20042FFCE /* Training.swift in Sources */,
 				C838BB382A768D910042FFCE /* FitPlansApp.swift in Sources */,
+				C888E3992A9F9D7E002D0E56 /* Persistance.swift in Sources */,
 				C838BBD62A7817C10042FFCE /* History.swift in Sources */,
 				C838BBE42A7BC5520042FFCE /* TrainingRowView.swift in Sources */,
 				C8E197742A9101CD00FA3137 /* Coordinator.swift in Sources */,
@@ -520,6 +793,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C888E3292A9DF48F002D0E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888E3BB2AA0886B002D0E56 /* TrainingViewState.swift in Sources */,
+				C888E3AC2AA07FBE002D0E56 /* Day.swift in Sources */,
+				C888E39F2AA07E8B002D0E56 /* History.swift in Sources */,
+				C888E3C42AA08DF6002D0E56 /* ExerciseRowViewState.swift in Sources */,
+				C888E3AA2AA07FBE002D0E56 /* MyBasicButtonView.swift in Sources */,
+				C888E3B12AA08037002D0E56 /* DayProgramScene.swift in Sources */,
+				C888E3A32AA07E8B002D0E56 /* Coordinator.swift in Sources */,
+				C888E3AD2AA07FBE002D0E56 /* RepRowView.swift in Sources */,
+				C888E3C02AA08CAE002D0E56 /* ExcerciseRowView.swift in Sources */,
+				C888E3B52AA08606002D0E56 /* TrainingView.swift in Sources */,
+				C888E3BE2AA088E3002D0E56 /* TrainingPlanExercise.swift in Sources */,
+				C888E3B92AA086D0002D0E56 /* ExerciseView.swift in Sources */,
+				C888E39E2AA07E8B002D0E56 /* TrainingWeek.swift in Sources */,
+				C888E3322A9DF48F002D0E56 /* ContentView.swift in Sources */,
+				C888E3AE2AA07FBE002D0E56 /* MyBasicButtonViewState.swift in Sources */,
+				C888E3A42AA07E8B002D0E56 /* ObservableObjects.swift in Sources */,
+				C888E3C62AA09F26002D0E56 /* StartSceneState.swift in Sources */,
+				C888E3C22AA08CE3002D0E56 /* ExerciseDescriptionScene.swift in Sources */,
+				C888E3AB2AA07FBE002D0E56 /* RepRowViewState.swift in Sources */,
+				C888E3A52AA07E8B002D0E56 /* Series.swift in Sources */,
+				C888E3CB2AA0AD3F002D0E56 /* RepView.swift in Sources */,
+				C888E3B32AA08067002D0E56 /* DayProgramSceneState.swift in Sources */,
+				C888E3B72AA08681002D0E56 /* StartScene.swift in Sources */,
+				C888E39C2AA07E8B002D0E56 /* BestOfTheDay.swift in Sources */,
+				C888E3A12AA07E8B002D0E56 /* Training.swift in Sources */,
+				C888E39D2AA07E8B002D0E56 /* ExerciseHistory.swift in Sources */,
+				C888E3CC2AA0AD4A002D0E56 /* RepViewState.swift in Sources */,
+				C888E3302A9DF48F002D0E56 /* FitPlansWatchApp.swift in Sources */,
+				C888E3C82AA0A097002D0E56 /* ExerciseViewState.swift in Sources */,
+				C888E3CA2AA0A670002D0E56 /* EnterDataScene.swift in Sources */,
+				C888E3A22AA07E8B002D0E56 /* Exercise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888E3382A9DF490002D0E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888E3412A9DF490002D0E56 /* FitPlansWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888E3422A9DF490002D0E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888E34B2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITests.swift in Sources */,
+				C888E34D2A9DF491002D0E56 /* FitPlansWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -532,6 +860,16 @@
 			isa = PBXTargetDependency;
 			target = C838BB332A768D910042FFCE /* FitPlans */;
 			targetProxy = C838BB4F2A768D920042FFCE /* PBXContainerItemProxy */;
+		};
+		C888E33E2A9DF490002D0E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C888E32C2A9DF48F002D0E56 /* FitPlansWatch Watch App */;
+			targetProxy = C888E33D2A9DF490002D0E56 /* PBXContainerItemProxy */;
+		};
+		C888E3482A9DF491002D0E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C888E32C2A9DF48F002D0E56 /* FitPlansWatch Watch App */;
+			targetProxy = C888E3472A9DF491002D0E56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -784,6 +1122,148 @@
 			};
 			name = Release;
 		};
+		C888E34E2A9DF491002D0E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitPlansWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FTU2HFGK26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FitPlansWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		C888E34F2A9DF491002D0E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitPlansWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FTU2HFGK26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FitPlansWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		C888E3502A9DF491002D0E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FTU2HFGK26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.FitPlansWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitPlansWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitPlansWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		C888E3512A9DF491002D0E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FTU2HFGK26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.FitPlansWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitPlansWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitPlansWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		C888E3522A9DF491002D0E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FTU2HFGK26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.FitPlansWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FitPlansWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		C888E3532A9DF491002D0E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FTU2HFGK26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.FitPlansWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FitPlansWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -823,7 +1303,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C888E3542A9DF491002D0E56 /* Build configuration list for PBXNativeTarget "FitPlansWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888E34E2A9DF491002D0E56 /* Debug */,
+				C888E34F2A9DF491002D0E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C888E3552A9DF491002D0E56 /* Build configuration list for PBXNativeTarget "FitPlansWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888E3502A9DF491002D0E56 /* Debug */,
+				C888E3512A9DF491002D0E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C888E3562A9DF491002D0E56 /* Build configuration list for PBXNativeTarget "FitPlansWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888E3522A9DF491002D0E56 /* Debug */,
+				C888E3532A9DF491002D0E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C888E35A2A9F933B002D0E56 /* FitPlans.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C888E35B2A9F933B002D0E56 /* FitPlansModel.xcdatamodel */,
+			);
+			currentVersion = C888E35B2A9F933B002D0E56 /* FitPlansModel.xcdatamodel */;
+			path = FitPlans.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C838BB2C2A768D910042FFCE /* Project object */;
 }

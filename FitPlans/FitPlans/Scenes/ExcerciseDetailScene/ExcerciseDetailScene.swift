@@ -39,8 +39,6 @@ struct ExerciseDetailScene: View {
 
 struct ExerciseDetailScene_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseDetailScene(state: ExerciseDetailSceneState(exercise: Exercise(id: 1, name: "Bench", series: [Series(reps: 0, weight: 0),
-                                                                             Series(reps: 0, weight: 0),
-                                                                             Series(reps: 0, weight: 0)], best: BestOfTheDay(reps: 0, weight: 0))))
+        ExerciseDetailScene(state: ExerciseDetailSceneState(exercise: Training.mock[0].exercises[0]))
     }
 }

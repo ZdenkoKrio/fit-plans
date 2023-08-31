@@ -13,7 +13,7 @@ struct TrainingScene: View {
     var body: some View {
         NavigationStack {
             Group {
-                if !state.isEmptyWeek {
+                if state.isEmptyWeek {
                     List(state.week, id: \.id) { day in
                         NavigationLink(destination: DayScene(state: DaySceneState(day: day))) {
                             TrainingRowView(state: TrainingRowViewState(day: day))

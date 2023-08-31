@@ -30,6 +30,6 @@ struct SeriesButtonView: View {
 
 struct SeriesButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        SeriesButtonView(state: SeriesButtonViewState(series: 0, actualSeries: .constant(Training.mock[0].exercises[0].series[0]), exercise: .constant(Training.mock[0].exercises[0]), writing: .constant(false), seriesNumber: .constant(1)))
+        SeriesButtonView(state: SeriesButtonViewState(series: 0, actualSeries: .constant(Training.mock[0].exercises[0].series?[0] ?? Series(reps: 0, weight: 0)), exercise: .constant(Training.mock[0].exercises[0]), writing: .constant(false), seriesNumber: .constant(1)))
     }
 }

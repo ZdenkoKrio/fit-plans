@@ -13,16 +13,16 @@ struct RepRowView: View {
     var body: some View {
         HStack {
             Text(state.name)
-                .font(.title)
+                .font(.title2)
                 .fontWeight(.bold)
-                .padding()
+                //.padding()
             Spacer()
             MyBasicButtonView(state: MyBasicButtonViewState(name: "-", action: {state.value -= 1}))
-                .padding()
+                //.padding()
             Text("\(state.value)")
                 .padding()
             MyBasicButtonView(state: MyBasicButtonViewState(name: "+", action: {state.value += 1}))
-                .padding()
+                //.padding()
         }
     }
 }

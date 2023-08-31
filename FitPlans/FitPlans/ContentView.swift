@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    /*
+    @Environment(\.managedObjectContext) private var viewContext
+
+    @FetchRequest(
+        sortDescriptors: [NSSortDescriptor(keyPath: \Training.timestamp, ascending: true)],
+        animation: .default)
+    private var trainings: FetchedResults<Training>
+    */
     var body: some View {
         MainScene(trainings: [Training(id: 0, name: "Trainnig1", isActive: true, week: Training.mock),
                               Training(id: 1, name: "Trainnig2", isActive: false, week: Training.mock)])

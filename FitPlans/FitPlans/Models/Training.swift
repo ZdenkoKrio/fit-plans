@@ -12,7 +12,9 @@ struct Training {
     let id: Int
     let name: String
     let isActive: Bool
-    let week: [Day]
+    //let trainingDays: [String]
+    //let weeks: [TrainingWeek]
+    let week: [Day] // onlt days
 }
 
 
@@ -21,15 +23,18 @@ extension Training {
         id: 1,
         name: "monady",
         exercises: [
-            Exercise(id: 0, name: "bench", series: [Series(reps: 10, weight: 60),
+            Exercise(id: 0, name: "Dlhy bench name", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                     series: [Series(reps: 10, weight: 60),
                                                      Series(reps: 8, weight: 70),
                                                      Series(reps: 5, weight: 80)],
                       best: BestOfTheDay(reps: 5, weight: 80)),
-            Exercise(id: 1, name: "kladky", series: [Series(reps: 10, weight: 60),
+            Exercise(id: 1, name: "kladky", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                     series: [Series(reps: 10, weight: 60),
                                                       Series(reps: 8, weight: 70),
                                                       Series(reps: 5, weight: 80)],
                       best: BestOfTheDay(reps: 5, weight: 80)),
-            Exercise(id: 2, name: "šikma", series: [Series(reps: 10, weight: 60),
+            Exercise(id: 2, name: "šikma", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                     series: [Series(reps: 10, weight: 60),
                                                      Series(reps: 8, weight: 70),
                                                      Series(reps: 5, weight: 80)],
                       best: BestOfTheDay(reps: 5, weight: 80))
@@ -39,15 +44,18 @@ extension Training {
                                 id: 3,
                                 name: "Wednesday",
                                 exercises: [
-                                    Exercise(id: 0, name: "bench", series: [Series(reps: 10, weight: 60),
+                                    Exercise(id: 0, name: "bench", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                                             series: [Series(reps: 10, weight: 60),
                                                                              Series(reps: 8, weight: 70),
                                                                              Series(reps: 5, weight: 80)],
                                               best: BestOfTheDay(reps: 5, weight: 80)),
-                                    Exercise(id: 1, name: "kladky", series: [Series(reps: 10, weight: 60),
+                                    Exercise(id: 1, name: "kladky", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                                             series: [Series(reps: 10, weight: 60),
                                                                               Series(reps: 8, weight: 70),
                                                                               Series(reps: 5, weight: 80)],
                                               best: BestOfTheDay(reps: 5, weight: 80)),
-                                    Exercise(id: 2, name: "šikma", series: [Series(reps: 10, weight: 60),
+                                    Exercise(id: 2, name: "šikma", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                                             series: [Series(reps: 10, weight: 60),
                                                                              Series(reps: 8, weight: 70),
                                                                              Series(reps: 5, weight: 80)],
                                               best: BestOfTheDay(reps: 5, weight: 80))
@@ -57,15 +65,18 @@ extension Training {
                                 id: 5,
                                 name: "Friday",
                                 exercises: [
-                                    Exercise(id: 0, name: "bench", series: [Series(reps: 10, weight: 60),
+                                    Exercise(id: 0, name: "bench", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                                             series: [Series(reps: 10, weight: 60),
                                                                              Series(reps: 8, weight: 70),
                                                                              Series(reps: 5, weight: 80)],
                                               best: BestOfTheDay(reps: 5, weight: 80)),
-                                    Exercise(id: 1, name: "kladky", series: [Series(reps: 10, weight: 60),
+                                    Exercise(id: 1, name: "kladky", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                                             series: [Series(reps: 10, weight: 60),
                                                                               Series(reps: 8, weight: 70),
                                                                               Series(reps: 5, weight: 80)],
                                               best: BestOfTheDay(reps: 5, weight: 80)),
-                                    Exercise(id: 2, name: "šikma", series: [Series(reps: 10, weight: 60),
+                                    Exercise(id: 2, name: "šikma", isRun: false, distanceKm: 0, time: TimeInterval(0),
+                                             series: [Series(reps: 10, weight: 60),
                                                                              Series(reps: 8, weight: 70),
                                                                              Series(reps: 5, weight: 80)],
                                               best: BestOfTheDay(reps: 5, weight: 80))
