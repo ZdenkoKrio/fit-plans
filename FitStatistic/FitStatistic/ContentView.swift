@@ -26,7 +26,7 @@ struct ContentView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+                    
                 }
                 ToolbarItem {
                     Button(action: addItem) {
