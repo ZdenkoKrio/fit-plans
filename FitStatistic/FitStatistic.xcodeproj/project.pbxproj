@@ -14,6 +14,14 @@
 		C897066D2AC4202000C2910E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = C897066C2AC4202000C2910E /* Record.swift */; };
 		C89706702AC425E500C2910E /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = C897066F2AC425E500C2910E /* Exercises.swift */; };
 		C89706722AC42AC100C2910E /* ExerciseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89706712AC42AC100C2910E /* ExerciseType.swift */; };
+		C89706742AC55B3300C2910E /* DayExercisesUpdateScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89706732AC55B3300C2910E /* DayExercisesUpdateScene.swift */; };
+		C89706762AC55BF000C2910E /* ExerciseDetailScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89706752AC55BF000C2910E /* ExerciseDetailScene.swift */; };
+		C89706782AC55CD200C2910E /* AddPlusButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89706772AC55CD200C2910E /* AddPlusButtonView.swift */; };
+		C897067A2AC561C600C2910E /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89706792AC561C600C2910E /* ExerciseRow.swift */; };
+		C8DCFE722AC5B4D3009474A9 /* AddNewExerciseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE712AC5B4D3009474A9 /* AddNewExerciseScene.swift */; };
+		C8DCFE752AC6A9F1009474A9 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE742AC6A9F1009474A9 /* ButtonModifier.swift */; };
+		C8DCFE782AC6AA13009474A9 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE772AC6AA13009474A9 /* TitleModifier.swift */; };
+		C8DCFE7A2AC6AA21009474A9 /* PickerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE792AC6AA21009474A9 /* PickerModifier.swift */; };
 		C8F6EA402ABF3DA400B10A7C /* FitStatisticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F6EA3F2ABF3DA400B10A7C /* FitStatisticApp.swift */; };
 		C8F6EA422ABF3DA400B10A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F6EA412ABF3DA400B10A7C /* ContentView.swift */; };
 		C8F6EA442ABF3DA400B10A7C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F6EA432ABF3DA400B10A7C /* Item.swift */; };
@@ -33,6 +41,14 @@
 		C897066C2AC4202000C2910E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		C897066F2AC425E500C2910E /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		C89706712AC42AC100C2910E /* ExerciseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseType.swift; sourceTree = "<group>"; };
+		C89706732AC55B3300C2910E /* DayExercisesUpdateScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayExercisesUpdateScene.swift; sourceTree = "<group>"; };
+		C89706752AC55BF000C2910E /* ExerciseDetailScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailScene.swift; sourceTree = "<group>"; };
+		C89706772AC55CD200C2910E /* AddPlusButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlusButtonView.swift; sourceTree = "<group>"; };
+		C89706792AC561C600C2910E /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
+		C8DCFE712AC5B4D3009474A9 /* AddNewExerciseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewExerciseScene.swift; sourceTree = "<group>"; };
+		C8DCFE742AC6A9F1009474A9 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		C8DCFE772AC6AA13009474A9 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		C8DCFE792AC6AA21009474A9 /* PickerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModifier.swift; sourceTree = "<group>"; };
 		C8F6EA3C2ABF3DA400B10A7C /* FitStatistic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitStatistic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F6EA3F2ABF3DA400B10A7C /* FitStatisticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStatisticApp.swift; sourceTree = "<group>"; };
 		C8F6EA412ABF3DA400B10A7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +80,16 @@
 			path = Enum;
 			sourceTree = "<group>";
 		};
+		C8DCFE732AC6A9D1009474A9 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C8DCFE742AC6A9F1009474A9 /* ButtonModifier.swift */,
+				C8DCFE772AC6AA13009474A9 /* TitleModifier.swift */,
+				C8DCFE792AC6AA21009474A9 /* PickerModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		C8F6EA332ABF3DA400B10A7C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +109,7 @@
 		C8F6EA3E2ABF3DA400B10A7C /* FitStatistic */ = {
 			isa = PBXGroup;
 			children = (
+				C8DCFE732AC6A9D1009474A9 /* Modifiers */,
 				C897066E2AC425C500C2910E /* Enum */,
 				C8F6EA502AC1997100B10A7C /* Scene */,
 				C8F6EA4F2AC1996700B10A7C /* Model */,
@@ -120,9 +147,14 @@
 			isa = PBXGroup;
 			children = (
 				C8F6EA512AC19D2B00B10A7C /* MainScene.swift */,
-				C8F6EA532AC1A01300B10A7C /* BackgroundCardView.swift */,
 				C8F6EA552AC1A49500B10A7C /* MainSceneState.swift */,
+				C8F6EA532AC1A01300B10A7C /* BackgroundCardView.swift */,
 				C8F6EA572AC1A6F100B10A7C /* UpdateTrainigScene.swift */,
+				C89706732AC55B3300C2910E /* DayExercisesUpdateScene.swift */,
+				C89706792AC561C600C2910E /* ExerciseRow.swift */,
+				C89706772AC55CD200C2910E /* AddPlusButtonView.swift */,
+				C89706752AC55BF000C2910E /* ExerciseDetailScene.swift */,
+				C8DCFE712AC5B4D3009474A9 /* AddNewExerciseScene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -197,10 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DCFE782AC6AA13009474A9 /* TitleModifier.swift in Sources */,
 				C89706692AC41C4100C2910E /* ExerciseHistory.swift in Sources */,
 				C8F6EA422ABF3DA400B10A7C /* ContentView.swift in Sources */,
+				C8DCFE722AC5B4D3009474A9 /* AddNewExerciseScene.swift in Sources */,
 				C897066D2AC4202000C2910E /* Record.swift in Sources */,
 				C8F6EA562AC1A49500B10A7C /* MainSceneState.swift in Sources */,
+				C8DCFE7A2AC6AA21009474A9 /* PickerModifier.swift in Sources */,
+				C897067A2AC561C600C2910E /* ExerciseRow.swift in Sources */,
 				C897066B2AC41E7500C2910E /* Round.swift in Sources */,
 				C89706652AC418D900C2910E /* Day.swift in Sources */,
 				C89706722AC42AC100C2910E /* ExerciseType.swift in Sources */,
@@ -209,7 +245,11 @@
 				C8F6EA582AC1A6F100B10A7C /* UpdateTrainigScene.swift in Sources */,
 				C8F6EA442ABF3DA400B10A7C /* Item.swift in Sources */,
 				C8F6EA542AC1A01300B10A7C /* BackgroundCardView.swift in Sources */,
+				C8DCFE752AC6A9F1009474A9 /* ButtonModifier.swift in Sources */,
+				C89706782AC55CD200C2910E /* AddPlusButtonView.swift in Sources */,
 				C8F6EA402ABF3DA400B10A7C /* FitStatisticApp.swift in Sources */,
+				C89706762AC55BF000C2910E /* ExerciseDetailScene.swift in Sources */,
+				C89706742AC55B3300C2910E /* DayExercisesUpdateScene.swift in Sources */,
 				C89706672AC4196E00C2910E /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

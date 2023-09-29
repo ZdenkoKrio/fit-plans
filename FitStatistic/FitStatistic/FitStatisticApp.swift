@@ -13,6 +13,8 @@ struct FitStatisticApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            Day.self,
+            Exercise.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +27,7 @@ struct FitStatisticApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScene()
         }
         .modelContainer(sharedModelContainer)
     }

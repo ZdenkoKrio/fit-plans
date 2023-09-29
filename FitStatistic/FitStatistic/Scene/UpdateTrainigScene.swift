@@ -6,10 +6,25 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct UpdateTrainigScene: View {
+    @Query private var days: [Day]
+    
+    let daysStatic: [String] = ["Pondelok", "Utorok", "Streda", "Štvrtok",
+                          "Piatok", "Sobota", "Nedela"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(daysStatic, id: \.self) { day in
+                NavigationLink(destination: DayExercisesUpdateScene()) {
+                    Text(day)
+                        .font(.title)
+                        .fontWeight(.medium)
+                        .padding()
+                } // LINK
+            } // LIST
+        } // STACK
     }
 }
 

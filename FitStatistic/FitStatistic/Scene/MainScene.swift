@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainScene: View {
     var body: some View {
-        NavigationSplitView {
+        NavigationStack {
             VStack(alignment: .center) {
                BackgroundCardView(imageName: "moon.zzz", text: "Today is Rest", isEmptyTraining: true, isTrainingDay: false)
             }
@@ -26,9 +26,6 @@ struct MainScene: View {
                 }
             }
         } // NAVIGATION
-        detail: {
-            Text("Select an item")
-        }
     }
 }
 

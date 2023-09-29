@@ -6,8 +6,17 @@
 //
 
 import Foundation
+import SwiftData
 
-struct Exercise {
-    let type: Exercises
-    let numberOfSeries: Int
+@Model
+final class Exercise {
+    @Attribute(.unique) var id: UUID
+    //let type: ExerciseType
+    var numberOfSeries: Int
+    
+    init(id: UUID, type: ExerciseType, numberOfSeries: Int) {
+        self.id = id
+        //self.type = type
+        self.numberOfSeries = numberOfSeries
+    }
 }

@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Exercises {
-    let name: String
-    let type: ExerciseType
+struct Exercises: Hashable {
+    var name: String
+    var type: ExerciseType
     // let info: String
     // let img: String
 }

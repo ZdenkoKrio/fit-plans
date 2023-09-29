@@ -7,7 +7,9 @@
 
 import Foundation
 
-enum ExerciseType: String {
+enum ExerciseType: String, CaseIterable, Identifiable {
+    var id: Self { self }
+    
     case trapeze = "Trapeza"
     case shoulders = "Ramena"
     case triceps = "Triceps"

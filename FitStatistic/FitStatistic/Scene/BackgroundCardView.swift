@@ -21,22 +21,12 @@ struct BackgroundCardView: View {
                 .padding()
             
             Text(text)
-                .font(.title)
-                .fontWeight(.bold)
+                .basicTitleStyle()
             
             if isEmptyTraining {
                 NavigationLink(destination: UpdateTrainigScene()) {
                     Text("Create new Plan")
-                            .padding()
-                            .font(.title3)
-                            .fontWeight(.bold)
-                            .foregroundStyle(.white)
-                            .background(.blue)
-                            .clipShape(RoundedRectangle(cornerRadius: 16))
-                            .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
-                                        .stroke(.cyan, lineWidth: 6)
-                                )
+                        .basicButtonStyle()
                 }
                
             }
