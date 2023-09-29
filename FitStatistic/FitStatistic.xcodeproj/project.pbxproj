@@ -22,6 +22,8 @@
 		C8DCFE752AC6A9F1009474A9 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE742AC6A9F1009474A9 /* ButtonModifier.swift */; };
 		C8DCFE782AC6AA13009474A9 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE772AC6AA13009474A9 /* TitleModifier.swift */; };
 		C8DCFE7A2AC6AA21009474A9 /* PickerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE792AC6AA21009474A9 /* PickerModifier.swift */; };
+		C8DCFE7D2AC6B78D009474A9 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE7C2AC6B78D009474A9 /* SettingsScene.swift */; };
+		C8DCFE7F2AC6BDB9009474A9 /* StatisticsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCFE7E2AC6BDB9009474A9 /* StatisticsScene.swift */; };
 		C8F6EA402ABF3DA400B10A7C /* FitStatisticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F6EA3F2ABF3DA400B10A7C /* FitStatisticApp.swift */; };
 		C8F6EA422ABF3DA400B10A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F6EA412ABF3DA400B10A7C /* ContentView.swift */; };
 		C8F6EA442ABF3DA400B10A7C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F6EA432ABF3DA400B10A7C /* Item.swift */; };
@@ -49,6 +51,8 @@
 		C8DCFE742AC6A9F1009474A9 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		C8DCFE772AC6AA13009474A9 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		C8DCFE792AC6AA21009474A9 /* PickerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModifier.swift; sourceTree = "<group>"; };
+		C8DCFE7C2AC6B78D009474A9 /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
+		C8DCFE7E2AC6BDB9009474A9 /* StatisticsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsScene.swift; sourceTree = "<group>"; };
 		C8F6EA3C2ABF3DA400B10A7C /* FitStatistic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitStatistic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F6EA3F2ABF3DA400B10A7C /* FitStatisticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStatisticApp.swift; sourceTree = "<group>"; };
 		C8F6EA412ABF3DA400B10A7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +94,13 @@
 			path = Modifiers;
 			sourceTree = "<group>";
 		};
+		C8DCFE7B2AC6B76C009474A9 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
 		C8F6EA332ABF3DA400B10A7C = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +120,7 @@
 		C8F6EA3E2ABF3DA400B10A7C /* FitStatistic */ = {
 			isa = PBXGroup;
 			children = (
+				C8DCFE7B2AC6B76C009474A9 /* Environment */,
 				C8DCFE732AC6A9D1009474A9 /* Modifiers */,
 				C897066E2AC425C500C2910E /* Enum */,
 				C8F6EA502AC1997100B10A7C /* Scene */,
@@ -155,6 +167,8 @@
 				C89706772AC55CD200C2910E /* AddPlusButtonView.swift */,
 				C89706752AC55BF000C2910E /* ExerciseDetailScene.swift */,
 				C8DCFE712AC5B4D3009474A9 /* AddNewExerciseScene.swift */,
+				C8DCFE7C2AC6B78D009474A9 /* SettingsScene.swift */,
+				C8DCFE7E2AC6BDB9009474A9 /* StatisticsScene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8DCFE782AC6AA13009474A9 /* TitleModifier.swift in Sources */,
+				C8DCFE7F2AC6BDB9009474A9 /* StatisticsScene.swift in Sources */,
 				C89706692AC41C4100C2910E /* ExerciseHistory.swift in Sources */,
 				C8F6EA422ABF3DA400B10A7C /* ContentView.swift in Sources */,
 				C8DCFE722AC5B4D3009474A9 /* AddNewExerciseScene.swift in Sources */,
@@ -243,6 +258,7 @@
 				C89706702AC425E500C2910E /* Exercises.swift in Sources */,
 				C8F6EA522AC19D2B00B10A7C /* MainScene.swift in Sources */,
 				C8F6EA582AC1A6F100B10A7C /* UpdateTrainigScene.swift in Sources */,
+				C8DCFE7D2AC6B78D009474A9 /* SettingsScene.swift in Sources */,
 				C8F6EA442ABF3DA400B10A7C /* Item.swift in Sources */,
 				C8F6EA542AC1A01300B10A7C /* BackgroundCardView.swift in Sources */,
 				C8DCFE752AC6A9F1009474A9 /* ButtonModifier.swift in Sources */,

@@ -15,12 +15,12 @@ struct MainScene: View {
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {}) {
+                    NavigationLink(destination: SettingsScene()) {
                         Label("Settings", systemImage: "gearshape")
                     }
                 }
                 ToolbarItem {
-                    Button(action: {}) {
+                    NavigationLink(destination: StatisticsScene()) {
                         Label("History", systemImage: "note.text")
                     }
                 }

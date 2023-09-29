@@ -28,7 +28,7 @@ struct DayExercisesUpdateScene: View {
         } // NAVIGATION
         .sheet(isPresented: $showingAddNewExercise, content: {
             AddNewExerciseScene()
-                .presentationDetents([.fraction(0.75)])
+                .presentationDetents([.fraction(0.5)])
                 .presentationDragIndicator(.visible)
         })
     }
